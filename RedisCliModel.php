@@ -1,7 +1,7 @@
 <?php
 
 /*
- * ray 2016.12.06 created
+ * leeler 2016.12.06 created
  * redis操作方法model
  * $this->load->model('RedisCliModel', 'redis');
  * $this->redis->connect();
@@ -9,8 +9,12 @@
  *
  * 添加connect方法是为了可以在同一个项目中连接多个redis
  *
- * 使用方式
+ * 使用方式,基于ci框架
+ $config['redis_host'] = '127.0.0.1';            // IP address or host
+$config['redis_port'] = '6379';                         // Default Redis port is 6379
+$config['redis_password'] = ''; 
  */
+ 
 
 class RedisCliModel extends CI_Model{
 
