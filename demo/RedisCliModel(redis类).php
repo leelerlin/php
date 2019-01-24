@@ -11,10 +11,10 @@
  *
  * 使用方式,基于ci框架
  $config['redis_host'] = '127.0.0.1';            // IP address or host
-$config['redis_port'] = '6379';                         // Default Redis port is 6379
-$config['redis_password'] = ''; 
+ $config['redis_port'] = '6379';                         // Default Redis port is 6379
+ $config['redis_password'] = '';
  */
- 
+
 
 class RedisCliModel extends CI_Model{
 
@@ -105,4 +105,4 @@ class RedisCliModel extends CI_Model{
 
 
 
-} 
+}
