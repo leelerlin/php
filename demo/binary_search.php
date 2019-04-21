@@ -4,7 +4,7 @@
 #有序数组
 
 //循环
-function binary_search($var  , $arr = []){
+function binary_search($var , $arr = []){
 	$i = 0;
 	$count = count($arr);
 	$lower = 0;
