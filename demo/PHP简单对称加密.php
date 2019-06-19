@@ -4,7 +4,7 @@
  * @Author: leeler
  * @Date: 2019-02-21 10:06:16
  * @Last modified by: leeler
- * @Last modified time: 2019-02-21 11:06:04
+ * @Last modified time: 2019-06-19 18:01:16
  * @Eamil: 690447824@qq.com
  */
 
@@ -229,10 +229,10 @@ $a = 'leeler12312312';
 //密钥
 $key = '12345678123456781234567812345678'; //256 bit
 $key = '1234567812345678'; //128 bit
-$key = '12345678'; //64 bit
+$key = '12345678'; $iv = 'abcdefgh';//64 bit
 
 //设置模式和IV
-$m = new Xcrypt($key, 'cbc', 'auto');
+$m = new Xcrypt($key, 'cbc', $iv);
 
 //获取向量值
 echo '向量：';

@@ -53,7 +53,7 @@ class singelLinkList {
     public function addLink($node) {
         $current = $this->header;
         while ($current->next != null) {
-            if ($current->next->id == $node->id) {
+            if ($current->next->id == $node->id) { // 更新
                 $current->next->name = $node->name;
                 return TRUE;
             }
