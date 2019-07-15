@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: linlei
  * Date: 2019/6/6 10:40
- * describe: 基于腾讯云对象存储 v5 二次封装
+ * describe: 基于腾讯云对象存储 v5 二次封装 
  */
 
 namespace App\Http\Libraries;
