@@ -29,7 +29,7 @@
 
 	 //列数循环 , 列数是以A列开始
 		for ($column = 'A'; $column <= $columnCount; $column++) {
-		 $dataArr[] = $objPHPExcel->getActiveSheet()->getCell($column.$row)->getValue();
+		 $dataArr[$row][] = $objPHPExcel->getActiveSheet()->getCell($column.$row)->getValue();
 		}
 	}
 	var_dump($dataArr);
